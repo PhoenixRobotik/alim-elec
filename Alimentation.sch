@@ -65,7 +65,7 @@ U 1 1 588506F6
 P 1700 3750
 F 0 "P3" H 1700 3900 50  0000 C CNN
 F 1 "Prise_Batterie" V 1800 3750 50  0000 C CNB
-F 2 "Connectors_Phoenix:PhoenixContact_MSTBVA-G_02x5.00mm_Vertical" H 1700 3750 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x3.50mm_Angled" H 1700 3750 50  0001 C CNN
 F 3 "" H 1700 3750 50  0000 C CNN
 	1    1700 3750
 	-1   0    0    1   
@@ -113,10 +113,10 @@ U 1 1 58851833
 P 9100 3100
 F 0 "P9" H 9100 3250 50  0000 C CNN
 F 1 "CONN_01X02" V 9200 3100 50  0000 C CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MSTBVA-G_02x5.00mm_Vertical" H 9100 3100 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x3.50mm_Angled" H 9100 3100 50  0001 C CNN
 F 3 "" H 9100 3100 50  0000 C CNN
 	1    9100 3100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P10
@@ -124,10 +124,10 @@ U 1 1 58851912
 P 9100 3800
 F 0 "P10" H 9100 3950 50  0000 C CNN
 F 1 "CONN_01X02" V 9200 3800 50  0000 C CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MSTBVA-G_02x5.00mm_Vertical" H 9100 3800 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x3.50mm_Angled" H 9100 3800 50  0001 C CNN
 F 3 "" H 9100 3800 50  0000 C CNN
 	1    9100 3800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Notes 9400 3150 0    60   ~ 12
 Puissance (non régulé)
@@ -319,7 +319,7 @@ U 1 1 589291D5
 P 1700 2800
 F 0 "P2" H 1700 2950 50  0000 C CNN
 F 1 "Prise_Alim" V 1800 2800 50  0000 C CNB
-F 2 "Connectors_Phoenix:PhoenixContact_MSTBVA-G_02x5.00mm_Vertical" H 1700 2800 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x3.50mm_Angled" H 1700 2800 50  0001 C CNN
 F 3 "" H 1700 2800 50  0000 C CNN
 	1    1700 2800
 	-1   0    0    1   
@@ -414,7 +414,7 @@ U 1 1 5892A99F
 P 8600 2300
 F 0 "P8" H 8600 2450 50  0000 C CNN
 F 1 "CONN_01X02" V 8700 2300 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 8600 2300 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x3.50mm_Angled" H 8600 2300 50  0001 C CNN
 F 3 "" H 8600 2300 50  0000 C CNN
 	1    8600 2300
 	0    1    -1   0   
@@ -438,7 +438,7 @@ U 1 1 5892AFD9
 P 3400 2300
 F 0 "P5" H 3400 2550 50  0000 C CNN
 F 1 "CONN_01X04" V 3500 2300 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 3400 2300 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_04x3.50mm_Angled" H 3400 2300 50  0001 C CNN
 F 3 "" H 3400 2300 50  0000 C CNN
 	1    3400 2300
 	0    1    -1   0   
