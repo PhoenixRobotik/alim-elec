@@ -1,4 +1,4 @@
-update=mer. 01 févr. 2017 23:45:46 CET
+update=lun. 06 févr. 2017 23:57:18 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../component libraries
@@ -64,3 +62,5 @@ LibName32=../component libraries/Microchip
 LibName33=../component libraries/Panchip
 LibName34=../component libraries/PhoenixRobotik
 LibName35=../component libraries/STMicroelectronics
+[general]
+version=1
