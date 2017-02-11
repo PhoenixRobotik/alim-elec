@@ -1,48 +1,47 @@
 EESchema Schematic File Version 2
-LIBS:Alimentation-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
 LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
 LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
 LIBS:atmel
+LIBS:audio
+LIBS:cmos4000
+LIBS:conn
 LIBS:contrib
+LIBS:cypress
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:opto
+LIBS:philips
+LIBS:power
+LIBS:regul
+LIBS:siliconi
+LIBS:texas
+LIBS:transistors
 LIBS:valves
+LIBS:xilinx
 LIBS:Infineon
 LIBS:Microchip
+LIBS:Panchip
 LIBS:PhoenixRobotik
 LIBS:STMicroelectronics
-LIBS:Alimentation-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Carte Alimentation 2017"
+Date "2017-02"
 Rev ""
-Comp ""
+Comp "Phoenix Robotik"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -139,7 +138,7 @@ U 1 1 58851065
 P 6550 3150
 F 0 "U1" H 6550 3400 50  0000 C CNN
 F 1 "LD1084V" H 6550 3350 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal_LargePads" H 6550 3250 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal_LargePads" H 6550 3250 50  0001 C CNN
 F 3 "" H 6550 3150 50  0000 C CNN
 	1    6550 3150
 	1    0    0    -1  
@@ -211,7 +210,7 @@ F 3 "" H 7600 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-Alimentation D2
+L LED D2
 U 1 1 5885E455
 P 7600 4600
 F 0 "D2" H 7600 4700 50  0000 C CNN
@@ -233,7 +232,7 @@ F 3 "" H 8100 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-Alimentation D3
+L LED D3
 U 1 1 5885F579
 P 8100 4600
 F 0 "D3" H 8100 4700 50  0000 C CNN
@@ -274,7 +273,7 @@ F 1 "PWR_FLAG" H 4150 3280 50  0000 C CNN
 F 2 "" H 4150 3100 50  0000 C CNN
 F 3 "" H 4150 3100 50  0000 C CNN
 	1    4150 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1850 4400 2000 4400
@@ -526,7 +525,7 @@ F 1 "POT" H 6550 3650 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6550 3650 50  0001 C CNN
 F 3 "" H 6550 3650 50  0000 C CNN
 	1    6550 3650
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R1
