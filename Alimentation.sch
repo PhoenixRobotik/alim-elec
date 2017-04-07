@@ -33,6 +33,7 @@ LIBS:Microchip
 LIBS:Panchip
 LIBS:PhoenixRobotik
 LIBS:STMicroelectronics
+LIBS:Alimentation-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -100,7 +101,7 @@ F 1 "DiodeProtection" H 5050 3200 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 5050 3100 50  0001 C CNN
 F 3 "" H 5050 3100 50  0000 C CNN
 	1    5050 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Notes 1650 4150 0    60   ~ 12
 Batterie
